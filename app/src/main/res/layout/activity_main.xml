@@ -4,16 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
     tools:context="com.example.android.incrypto.MainActivity">
 
     <ImageView
         android:id="@+id/bitcoin_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:padding="50dp"
-        android:src="@drawable/bitcoin" />
+        android:padding="16dp"
+        android:src="@drawable/bitcoin_image3" />
 
+    <ImageView
+        android:id="@+id/ethereum_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/bitcoin_image"
+        android:padding="16dp"
+        android:src="@drawable/ethereum_image1" />
 
 </RelativeLayout>
