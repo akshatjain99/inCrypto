@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:padding="16dp"
-        android:text="Initial : "
+        android:text="@string/initial"
         android:textSize="20dp" />
 
     <EditText
