@@ -17,8 +17,26 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".PriceIndex"
-            android:label="Price Index"
+            android:name=".BitcoinInformation"
+            android:label="Bitcoin"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".EthereumInformation"
+            android:label="Bitcoin"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".RippleInformation"
+            android:label="Bitcoin"
             android:parentActivityName=".MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
