@@ -7,30 +7,52 @@
     android:background="#FFFFFF"
     tools:context="com.example.android.incrypto.MainActivity">
 
-    <ImageView
-        android:id="@+id/bitcoin_image"
+    <LinearLayout
+        android:id="@+id/image_views"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="16dp"
-        android:src="@drawable/bitcoin_image3" />
+        android:orientation="horizontal">
 
-    <ImageView
-        android:id="@+id/ethereum_image"
+        <ImageView
+            android:id="@+id/bitcoin_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:src="@drawable/bitcoin_image3" />
+
+        <ImageView
+            android:id="@+id/ethereum_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/bitcoin_image"
+            android:layout_toRightOf="@+id/bitcoin_image"
+            android:padding="16dp"
+            android:src="@drawable/ethereum_image1" />
+
+        <ImageView
+            android:id="@+id/ripple_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ethereum_image"
+            android:layout_toRightOf="@+id/ethereum_image"
+            android:padding="16dp"
+            android:src="@drawable/ripple" />
+    </LinearLayout>
+
+    <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/bitcoin_image"
-        android:padding="16dp"
-        android:src="@drawable/ethereum_image1"
-        android:layout_alignBottom="@+id/bitcoin_image" />
+        android:layout_below="@+id/image_views"
+        android:layout_centerHorizontal="true">
 
-    <ImageView
-        android:id="@+id/ripple_image"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/ethereum_image"
-        android:padding="16dp"
-        android:src="@drawable/ripple"
-        android:layout_alignBottom="@+id/ethereum_image" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name : Rishi Banerjee"
+            android:textSize="32dp"
+            android:textColor="@android:color/holo_orange_light"
+            />
 
+    </RelativeLayout>
 
 </RelativeLayout>

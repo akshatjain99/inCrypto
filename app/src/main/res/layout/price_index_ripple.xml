@@ -1,13 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <TextView
+        android:id="@+id/ripple_intital"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Ripple Information Here"
+        android:layout_alignParentTop="true"
+        android:padding="16dp"
+        android:text="Initial : "
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/ripple_initial_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ripple_intital"
+        android:hint="Amount in Dollars"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/ripple_profit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ripple_initial_amount"
+        android:padding="16dp"
+        android:text="Profit : "
+        android:textSize="20dp"
+
         />
 
+    <Button
+        android:id="@+id/ripple_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/ripple_initial_amount"
+        android:layout_marginEnd="31dp"
+        android:text="Ok" />
 </RelativeLayout>
