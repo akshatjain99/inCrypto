@@ -13,8 +13,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ImageView img = (ImageView) findViewById(R.id.bitcoin_image);
-        img.setOnClickListener(new View.OnClickListener() {
+        ImageView bitcoin_image = (ImageView) findViewById(R.id.bitcoin_image);
+        bitcoin_image.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // your code here
                 Intent intent = new Intent(MainActivity.this,PriceIndex.class);
