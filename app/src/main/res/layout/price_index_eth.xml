@@ -17,7 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/ethereum_intital"
-        android:hint="Amount in Rupee"
+        android:hint="@string/rupee"
         android:padding="16dp" />
 
     <TextView
