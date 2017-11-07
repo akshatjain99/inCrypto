@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">inCrypto</string>
     <string name="rupee">Amount in Rupee</string>
+    <string name="profit">Profit : </string>
+    <string name="profitPercentage">Profit Percentage : </string>
+    <string name="buttonToCalculate">Ok</string>
 </resources>

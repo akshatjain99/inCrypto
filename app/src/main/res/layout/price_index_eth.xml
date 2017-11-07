@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/ethereum_initial_amount"
         android:padding="16dp"
-        android:text="Profit : "
+        android:text="@string/profit"
         android:textSize="20dp"
 
         />
@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/ethereum_profit"
         android:padding="16dp"
-        android:text="Profit Percentage : "
+        android:text="@string/profitPercentage"
         android:textSize="20dp"
 
         />
@@ -49,6 +49,6 @@
         android:layout_alignParentEnd="true"
         android:layout_alignTop="@+id/ethereum_initial_amount"
         android:layout_marginEnd="31dp"
-        android:text="Ok" />
+        android:text="@string/buttonToCalculate"/>
 
 </RelativeLayout>
