@@ -18,7 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/ripple_intital"
-        android:hint="Amount in Dollars"
+        android:hint="Amount in Rupee"
         android:padding="16dp" />
 
     <TextView
@@ -28,6 +28,17 @@
         android:layout_below="@id/ripple_initial_amount"
         android:padding="16dp"
         android:text="Profit : "
+        android:textSize="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/ripple_profit_percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ripple_profit"
+        android:padding="16dp"
+        android:text="Profit Percentage : "
         android:textSize="20dp"
 
         />

@@ -17,24 +17,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/ethereum_intital"
-        android:hint="Amount in Dollars"
-        android:padding="16dp" />
-
-    <EditText
-        android:id="@+id/no_of_initial_ethereum"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/ethereum_initial_amount"
-        android:hint="No of Bitcoins Bought"
+        android:hint="Amount in Rupee"
         android:padding="16dp" />
 
     <TextView
         android:id="@+id/ethereum_profit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/no_of_initial_ethereum"
+        android:layout_below="@id/ethereum_initial_amount"
         android:padding="16dp"
         android:text="Profit : "
+        android:textSize="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/ethereum_profit_percentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ethereum_profit"
+        android:padding="16dp"
+        android:text="Profit Percentage : "
         android:textSize="20dp"
 
         />

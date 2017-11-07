@@ -18,7 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/bitcoin_intital"
-        android:hint="Amount in Dollars"
+        android:hint="Amount in Rupee"
         android:padding="16dp" />
 
     <TextView

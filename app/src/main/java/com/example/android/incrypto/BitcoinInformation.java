@@ -29,7 +29,7 @@ public class BitcoinInformation extends AppCompatActivity {
                 EditText getBitcoinInitial = (EditText) findViewById(R.id.bitcoin_initial_amount);
                 double amount = Double.parseDouble(getBitcoinInitial.getText().toString());
                 double earlyPrice = 180000.0d;
-                double currentPrice = 480000.0d;
+                double currentPrice = 459970.6d;
                 double bitcoinsBought = amount/earlyPrice;
                 double profit = (bitcoinsBought*currentPrice)-amount;
                 double profitPercentage = (profit/amount)*100.0d;
